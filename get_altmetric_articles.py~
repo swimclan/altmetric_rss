@@ -391,7 +391,6 @@ write_success_log('Ended process', logFile)
 #close the log file
 logFile.close()
 
-# END OF FILE
 
 
 

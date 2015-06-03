@@ -256,7 +256,7 @@ if (not localDirectory.endswith('/')):
 #make sure there is a '/' at the end of the directory sctring passed in
 webDirectory = sys.argv[2]
 if (not webDirectory.endswith('/')):
-	webDirectory += "/"
+ww	webDirectory += "/"
 
 #get the journal ID (or wildcard) from the sys args list to determine what journal will be generated
 #assume a string is inputted
@@ -391,7 +391,6 @@ write_success_log('Ended process', logFile)
 #close the log file
 logFile.close()
 
-# END OF FILE
 
 
 
